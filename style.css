@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #22225e;
+  }
+  .heading{
+    border: 1px solid #205465;
+    border-radius:20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #205465;
+    font-family: 'Gill Sans';
+  }
+  .container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #5a5353;
+    border-radius:2px;
+    margin-top:10%;
+    width:22%;
+    background-color:#5a5353;
+    height:40vh;
+    padding: 20px;
+    margin-left:38%;
+    font-family:'Gill Sans';
+    
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="gmail"]{
+    border-radius: 5px;
+    width:100%;
+    box-sizing: border-box;
+    border:1px solid white;
+    margin-top: 3%;
+    height:5vh;
+     
+  }
+  .remember-forgot a{
+    color:#1c1c82;
+    text-decoration: none;
+    margin-left:40%;
+  }
+  a:hover{
+    color: #1c1c82;
+  }
+  .button{
+    width:100%;
+    height:5vh;
+    font-size: bold;
+    color:white;
+    background-color:#3f2ec2;
+    /* margin-left: 24%; */
+  }
+  .button:hover{
+    background-color: #1c1c82;
+    cursor: pointer;
+  }
+  
